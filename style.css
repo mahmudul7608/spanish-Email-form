@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contract-container {
+  background-color: rgb(252, 255, 255);
+  max-width: 950px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.social-text {
+  text-align: center;
+  margin: 2rem;
+}
+.social-text h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.3333px;
+  line-height: 27.5px;
+  color: red;
+  margin-bottom: 2rem;
+}
+
+.social-text p {
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  line-height: 25.5px;
+  color: black;
+}
+.cont-form {
+  display: flex;
+  margin-top: 25px;
+  gap: 10rem;
+}
+
+.flex-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.flex-section img {
+  margin-top: 10px;
+  gap: 0 1rem 0 0;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.whatsapp {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.whatsapp i {
+  color: #04f710;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.whatsapp:hover {
+  background-color: rgb(17, 191, 191);
+  transition: background-color 0.3s ease;
+  cursor: pointer; 
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: red;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+

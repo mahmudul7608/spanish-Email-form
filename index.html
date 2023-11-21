@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spanish Contact Form</title>
+  </head>
+  <body>
+    <div class="contract-container">
+      <div class="social-text">
+        <h2>Solicita tu primer encuentro gratis</h2>
+        <p>Plazas limitadas</p>
+      </div>
+
+      <div class="cont-form">
+        <div class="flex-section">
+          <img src="./image/image17.jpg" />
+
+          <div class="whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            +43 663 12 99 81
+          </div>
+        </div>
+
+        <div class="flex-section">
+          <div class="container">
+            <form action="#" method="post">
+              <label for="name">TU NOMBRE</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="whatsapp">TU NUMERO DE WHATSAPP(OPCIONAL)</label>
+              <input
+                type="tel"
+                id="whatsapp"
+                name="whatsapp"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+
+              <label for="message">EN QUE PIEDRO AYUDRAL?</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Hola, Virginia, quisiiera ayuda con.."
+                required
+              ></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
