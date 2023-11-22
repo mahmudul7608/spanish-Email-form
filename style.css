@@ -71,7 +71,9 @@
 .whatsapp:hover {
   background-color: rgb(17, 191, 191);
   transition: background-color 0.3s ease;
-  cursor: pointer; 
+  cursor: pointer;
+  margin-top: 10px;
+  transform: scaleX(1.1);
 }
 
 .container {
@@ -102,7 +104,7 @@ button {
   background-color: red;
   color: #fff;
   font-size: 17px;
-  padding: 10px 35px;
+  padding: 10px 45px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -111,6 +113,5 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  transform: scale(1.1);
 }
-
